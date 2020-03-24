@@ -9,3 +9,4 @@ MAINTAINER Simon Bennetts "psiinon@gmail.com"
 RUN curl -s -L https://github.com/psiinon/bodgeit/releases/download/1.4.0/bodgeit.war > bodgeit.war && \
 	mv bodgeit.war /usr/local/tomcat/webapps
 
+# comment added to force scan
