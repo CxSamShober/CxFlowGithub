@@ -3,11 +3,17 @@ package com.thebodgeitstore.search;
 //Author: Doug Logan
 //Email: dlogan@CyberNinjas.com
 
+//comment added to force change 
+
+
 public class SearchResult {
     private String product = "";
     private String desc = "";
     private String type = "";
     private String price = "";
+    private String nonsense = "";
+    
+    
     
     //Constructors
     public SearchResult(){}
