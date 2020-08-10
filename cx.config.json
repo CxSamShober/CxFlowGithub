@@ -1,14 +1,12 @@
-{
+ {
   "sast": {
-    "incremental": "false",
-    "forceScan" : "true",
-  	"team": "/CxServer/SP"
-    "preset": "OWASP TOP 10 - 2010"
+    "preset": "High and Medium",
+    "incremental": "false"
   },
   "cxFlow": {
     "branches": ["cx-imatlin-.*", "master"],
     "jira": {
-      "project": ""
+      "project": "CPT"
     }
   }
 }
