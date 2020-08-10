@@ -1,19 +1,11 @@
 {
-  "version": "1.0",
-  "project": "",
-  "team": "/CxServer/SP",
   "sast": {
-    "preset": "High and Medium",
-    "incremental": "false",
-    "forceScan" : "true",
+    "preset": "OWASP Top 10 2013"
   },
-  "additionalProperties" : {
-    "cxFlow": {
-      "bugTracker": "JIRA",
-      "jira": {
-        "project": "CxFlowGitHub",
-        },
-      }
+  "cxFlow": {
+    "branches": ["cx-imatlin-.*", "master"],
+    "jira": {
+      "project": "CPT"
     }
-
+  }
 }
