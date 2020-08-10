@@ -1,0 +1,56 @@
+{
+  "version": 1.0,
+  "project": "",
+  "team": "/CxServer/SP/Company",
+  "sast": {
+    "preset": "",
+    "engineConfiguration": "",
+    "incremental": "false",
+    "forceScan" : "true",
+    "fileExcludes": "",
+    "folderExcludes": ""
+  },
+  "additionalProperties" : {
+    "cxFlow": {
+      "application": "",
+      "branches": ["develop", "master"],
+      "bugTracker": "JIRA",
+      "jira": {
+        "project": "CxFlowGitHub",
+        "issue_type": "Bug",
+        "assignee": "",
+        "opened_status": ["Open","Reopen"],
+        "closed_status": ["Closed","Done"],
+        "open_transition": "Reopen Issue",
+        "close_transition": "Close Issue",
+        "close_transition_field": "resolution",
+        "close_transition_value": "Done",
+        "priorities": {
+          "High": "High",
+          "Medium": "High",
+          "Low": "High"
+        },
+        "fields": [
+          {
+            "type": "result",
+            "name": "category",
+            "jira_field_name": "Application",
+            "jira_field_type": "label",
+          },
+          {
+            "type": "result",
+            "name": "category",
+            "jira_field_name": "category",
+            "jira_field_type": "label"
+          }
+        ]
+      },
+      "filters" : {
+        "severity": ["High", "Medium"],
+        "cwe": ["79", "89"],
+        "category": ["XSS_Reflected", "SQL_Injection"],
+        "status": ["Confirmed", "New"]
+      }
+    }
+  }
+}
