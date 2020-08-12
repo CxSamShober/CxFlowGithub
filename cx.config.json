@@ -4,7 +4,7 @@
     "incremental": "false"
   },
   "cxFlow": {
-    "branches": ["Cx*", "master"],
+    "branches": ["master"],
     "jira": {
       "project": "CPT"
     }
