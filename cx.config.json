@@ -7,7 +7,7 @@
   "cxFlow": {
     "branches": ["master"],
     "jira": {
-      "project": "CPT"
+      "project": "CXGH"
     }
   }
 }
