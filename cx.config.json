@@ -2,6 +2,7 @@
   "sast": {
     "preset": "High and Medium",
     "incremental": "false"
+    "forceScan" : "true",
   },
   "cxFlow": {
     "branches": ["master"],
