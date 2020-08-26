@@ -1,8 +1,8 @@
  {
   "sast": {
     "preset": "High and Medium",
-    "forceScan" : "true",
     "incremental": "false"
+    "forceScan" : "true",
   },
   "cxFlow": {
     "branches": ["master"],
@@ -11,4 +11,5 @@
       "project": "CXGH"
     }
   }
+  
 }
