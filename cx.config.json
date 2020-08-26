@@ -1,13 +1,14 @@
 {
   "sast": {
-    "preset": "high and medium",
+    "preset": "High and Medium",
     "incremental": "false",
+    "team": "/CxServer/SP",  
     "forceScan" : "true",
   },
-     "cxFlow": {
-      "bugTracker": "JIRA",
-      "jira": {
-        "project": "APPSEC",
-      }
+  "additionalProperties" : {
+    "cxFlow": {
+      "bugTracker": "NONE",
+      },
     }
+
 }
