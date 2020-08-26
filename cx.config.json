@@ -1,20 +1,19 @@
 {
   "version": "1.0",
-  "project": "CxFlowGitHub-project-override",
-  "team": "/CxServer/SP", 
-# {
-#  "sast": {
-#    "preset": "High and Medium",
-#    "forceScan" : "true",
-#    "incremental": "false"
+  "project": "CxFlow-project-override",
+  "team": "/CxServer/SP",
+  "sast": {
+    "preset": "high and medium",
+    "incremental": "false",
+    "forceScan" : "true",
+  },
+  "additionalProperties" : {
+    "cxFlow": {
+      "bugTracker": "JIRA",
+      "jira": {
+        "project": "APPSEC",
+        },
+      }
+    }
 
-#  },
-#  "cxFlow": {
-#    "branches": ["master"],
-#    "bug-tracker": "JIRA",
-#    "jira": {
-#      "project": "CXGH"
-#    }
-#  }
-  
 }
