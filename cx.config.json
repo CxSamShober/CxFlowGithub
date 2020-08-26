@@ -2,16 +2,12 @@
   "sast": {
     "preset": "high and medium",
     "incremental": "false",
-    "team": "/CxServer/SP",
     "forceScan" : "true",
   },
-  "additionalProperties" : {
-    "cxFlow": {
+     "cxFlow": {
       "bugTracker": "JIRA",
       "jira": {
         "project": "APPSEC",
-        },
       }
     }
-
 }
