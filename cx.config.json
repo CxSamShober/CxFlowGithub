@@ -8,10 +8,10 @@
   "additionalProperties" : {
     "cxFlow": {
       "project": "",
-      "team": "/CxServer/SP",
+      "team": "CxServer",
       "bugTracker": "JIRA",
       "jira": {
-        "project": "APPSEC",
+        "project": "CXGH",
         },
       }
     }
