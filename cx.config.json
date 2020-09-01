@@ -1,17 +1,16 @@
-{
+ {
   "sast": {
     "preset": "High and Medium",
-    "incremental": "false",
     "forceScan" : "true",
+    "incremental": "false"
+
   },
-  "additionalProperties" : {
-    "cxFlow": {
-      "project": "",
-      "team": "CxServer",
-      "bugTracker": "JIRA",
-      "jira": {
-        "project": "CXGH",
-        },
-      }
+  "cxFlow": {
+    "branches": ["master"],
+    "bug-tracker": "JIRA",
+    "jira": {
+      "project": "CXGH"
     }
+  }
+  
 }
