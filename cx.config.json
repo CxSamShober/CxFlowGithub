@@ -1,15 +1,16 @@
  {
   "sast": {
     "preset": "High and Medium",
-    "forcescan" : "true",
+    "forceScan" : "true",
     "incremental": "false"
   },
   "cxFlow": {
     "branches": ["master"],
-#    "bug-tracker": "jira",
+    "bug-tracker": "JIRA",
     "jira": {
       "project": "CXGH"
     }
-  }  
+  }
+
 }
 # make comments for change
