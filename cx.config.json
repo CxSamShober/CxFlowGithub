@@ -3,7 +3,6 @@
     "preset": "High and Medium",
     "forceScan" : "true",
     "incremental": "false"
-
   },
   "cxFlow": {
     "branches": ["master"],
@@ -11,6 +10,5 @@
     "jira": {
       "project": "CXGH"
     }
-  }
-  
+  }  
 }
