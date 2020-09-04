@@ -5,8 +5,9 @@
     "incremental": "false"
   },
   "cxFlow": {
-    "branches": ["master"],
-    "bug-tracker": "JIRA",
+    #"branches": ["master"],
+    #"bug-tracker": "Jira",
+    #"bug-tracker-impl: ["jira"],
     "jira": {
       "project": "CXGH"
     }
