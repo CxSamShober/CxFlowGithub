@@ -3,6 +3,7 @@
     "preset": "High and Medium",
     "forceScan" : "true",
     "incremental": "false"
+    "bug-tracker": "JIRA"
   },
   "cxFlow": {
     "jira": {
