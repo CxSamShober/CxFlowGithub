@@ -5,13 +5,9 @@
     "incremental": "false"
   },
   "cxFlow": {
-    #"branches": ["master"],
-    #"bug-tracker": "Jira",
-    #"bug-tracker-impl: ["jira"],
     "jira": {
       "project": "CXGH"
     }
   }
 
 }
-# make comments for change
