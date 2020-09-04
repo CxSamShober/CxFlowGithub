@@ -2,12 +2,10 @@
   "sast": {
     "preset": "High and Medium",
     "forceScan" : "true",
-    "incremental": "false"
-  },
-  "cxFlow": {
+    "incremental": "false",
     "jira": {
       "project": "CXGH"
-    }
+  }
   }
 
 }
