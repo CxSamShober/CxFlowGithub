@@ -6,7 +6,7 @@
   },
   "cxFlow": {
     "branches": ["master"],
-    "bug-tracker": "JIRA",
+    "bug-tracker": "Jira",
     "jira": {
       "project": "CXGH"
     }
