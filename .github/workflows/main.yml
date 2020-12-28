@@ -31,7 +31,7 @@ jobs:
       with:
         project: CxSamShober-CxFlowGithub-GHAction # <-- Insert Checkmarx SAST Project Name
         team: /CxServer/TeamName
-        checkmarx_url: https://sls-routing.ngrok.io.ngrok.io # To be stored in GitHub Secrets.
+        checkmarx_url: http://sls-routing.ngrok.io.ngrok.io # To be stored in GitHub Secrets.
         checkmarx_username: admin # To be stored in GitHub Secrets.
         checkmarx_password: Cx!234567 # To be stored in GitHub Secrets.
         checkmarx_client_secret: 014DF517-39D1-4453-B7B3-9930C563627C # To be stored in GitHub Secrets.
