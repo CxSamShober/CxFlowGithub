@@ -4,7 +4,8 @@
     "forceScan" : "true",
     "incremental": "false",
     "bug-tracker": "JIRA"
-    "project": "ForcedOverideProjectName",
+    "project": "CxFlowGithub-ForcedOverideProjectName",
+     //this project defines the override for the scan, 
   },
   "cxFlow": {
     "jira": {
@@ -13,4 +14,4 @@
   }
   
 }
-//comment
+//comment 
