@@ -4,6 +4,7 @@
     "forceScan" : "true",
     "incremental": "false",
     "bug-tracker": "JIRA"
+    "project": "ForcedOverideProjectName",
   },
   "cxFlow": {
     "jira": {
