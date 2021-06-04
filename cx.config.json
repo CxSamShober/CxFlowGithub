@@ -3,7 +3,7 @@
     "preset": "High and Medium",
     "forceScan" : "true",
     "incremental": "false",
-    "bug-tracker": "JIRA"
+    "bug-tracker": "JIRA",
     "project": "ForcedOverideProjectName",
   },
   "cxFlow": {
