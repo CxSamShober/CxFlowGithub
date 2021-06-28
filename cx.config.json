@@ -5,7 +5,7 @@
     "incremental": "true",
     "bug-tracker": "JIRA",
     "project": "ForcedOverideProjectName",
-  }
+  },
   "cxFlow": {
     "jira": {
       "project": "CXGH",
