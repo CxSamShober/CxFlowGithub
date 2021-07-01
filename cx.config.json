@@ -7,10 +7,9 @@
     "bug-tracker": "JIRA" 
   },
   "cxFlow": {
-    "jira": {
-      "project": "CXGH"
-    }
-  }
-  
+  "bugTracker": "Jira"
+  },
+  "jira": {
+    "project": "CXGH"
+ }
 }
-//comment
