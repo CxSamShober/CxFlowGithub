@@ -1,4 +1,3 @@
- {
   "sast": {
     "preset": "High and Medium",
     "forceScan" : "true",
@@ -10,5 +9,4 @@
     "jira": {
       "project": "CXGH",
     },
-  },
-}
+  }
