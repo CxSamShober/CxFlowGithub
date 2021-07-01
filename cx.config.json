@@ -1,14 +1,14 @@
  {
+  "project": "ForcedOverideProjectName",
   "sast": {
     "preset": "High and Medium",
-    "forceScan" : "true",
-    "incremental": "true",
-    "project": "ForcedOverideProjectName"
+    "forceScan" : "false",
+    "incremental": "true"
   },
   "cxFlow": {
-  "bugTracker": "Jira"
-  },
+  "bugTracker": "Jira",
   "jira": {
     "project": "CXGH"
+  }
  }
 }
