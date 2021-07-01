@@ -6,9 +6,9 @@
     "project": "ForcedOverideProjectName"
   },
   "cxFlow": {
-  "bugTracker": "Jira"
-  },
+  "bugTracker": "Jira",
   "jira": {
     "project": "CXGH"
+  }
  }
 }
