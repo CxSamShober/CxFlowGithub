@@ -1,9 +1,10 @@
  {
   "sast": {
+    "forceScan" : "true", 
+    "project": "ForcedOverideProjectName", 
     "preset": "High and Medium",
-    "forceScan" : "true",
-    "incremental": "true",
-    "project": "ForcedOverideProjectName"
+    "incremental": "false",
+    "bug-tracker": "JIRA" 
   },
   "cxFlow": {
   "bugTracker": "Jira"
